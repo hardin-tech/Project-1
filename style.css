@@ -1,0 +1,19 @@
+@charset "utf-8";
+body {
+    background-image: url(Images/black_white_tech.jpeg);
+	background-repeat: no-repeat;
+}
+/* Put near the top of style.css */
+.container {
+  perspective: 1000px;          /* gives children some depth */
+}
+
+.container-fluid .container .img-fluid {
+    opacity: 1;
+}
+.container-fluid .container .row {
+    opacity: 1;
+}
+.row .col-xl-4 .card.col-md-4.col-xl-12 {
+	border-style: none;
+}
